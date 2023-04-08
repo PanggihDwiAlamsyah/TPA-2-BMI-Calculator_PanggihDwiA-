@@ -25,7 +25,7 @@ Membuat aplikasi website untuk menghitung Body Mass Index (BMI) berdasarkan stan
 
 ## Link Akses Portofolio
 
-- Netlify :
+- Netlify : https://tpa-2-bmi-calculator.netlify.app/ 
 
 ## Scrensoot Landing Page
 
