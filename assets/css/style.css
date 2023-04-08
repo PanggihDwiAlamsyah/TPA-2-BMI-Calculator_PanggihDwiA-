@@ -1,0 +1,108 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+body {
+  min-height: 0vh;
+  background: url('../img/mbuh.jpg') ;
+  background-size: cover;
+  background-repeat: no-repeat;
+  font-family: 'Segoe UI', sans-serif;
+}
+.container {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, 0%);
+  display: flex;
+  height: 300px;
+  justify-content: center;
+  align-items: center;
+
+}
+.box {
+  min-width: 1000px;
+  background: #fafafa;
+  border-radius: 38px;
+  text-align: center;
+  position: relative;
+  margin-bottom: 150px;
+}
+
+h1 {
+  font-weight: bold;
+  font-size: 36px;
+  padding: 30px 0;
+}
+h2{
+  font-weight: normal;
+  font-size: 20px;
+  padding: 30px 0;
+}
+.content {
+  padding: 0 40px;
+}
+.input {
+  background: #fff;
+  box-shadow: 0px 0px 95px -30px rgba(0, 0, 0, 0.15);
+  border-radius: 28px;
+  padding: 20px;
+  margin-bottom: 20px;
+}
+.input label {
+  display: block;
+  font-size: 18px;
+  font-weight: 600;
+  color: #000;
+  margin-bottom: 20px;
+}
+.input input {
+  outline: none;
+  border: none;
+  border-bottom: 1px solid #000000;
+  width: 60%;
+  text-align: center;
+  font-size: 28px;
+  font-family: "Noto Sans Math", sans-serif;
+}
+button#calculate {
+  font-family: "Noto Sans Math", sans-serif;
+  color: #fff;
+  background: #d60404;
+  font-size: 20px;
+  border-radius: 12px;
+  padding: 15px 0;
+  width: 80%;
+  transition: background 0.2s ease;
+}
+
+
+
+button#calculate:hover {
+  background: #c44040;
+}
+
+.result {
+  padding: 30px 20px;
+}
+.result p {
+  font-weight: 600;
+  font-size: 22px;
+  color: #000;
+  margin-bottom: 15px;
+}
+.result #result {
+  font-size: 36px;
+  font-weight: 900;
+  color: #c44040;
+  background-color:  #d3d3d3;
+  display: inline-block;
+  padding: 7px 20px;
+  border-radius: 55px;
+  margin-bottom: 25px;
+}
+#simpulan {
+  color: #d60404;
+  font-weight: 800;
+}
